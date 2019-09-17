@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MVVM_PersonenDB_Bsp.exe" version="1.0.0.0" publicKeyToken="4d22f349882c49ee" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MVVM_PersonenDB_Bsp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MVVM_PersonenDB_Bsp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Expression.Interactions.dll" size="91648">
+      <assemblyIdentity name="Microsoft.Expression.Interactions" version="4.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>87FN770FSTuFcwFrCLhuW11TtIawRX/XX2e/i/8Evjg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MVVM_PersonenDB_Bsp.exe" size="37808">
+      <assemblyIdentity name="MVVM_PersonenDB_Bsp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ByOlUOw5lm7+a0hvfhRxGVw+1mp8rABNoe9HqXy820U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Windows.Interactivity.dll" size="39936">
+      <assemblyIdentity name="System.Windows.Interactivity" version="4.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SqzoyKMwroQpzYzBtoBAdtOp/9YzRw+R/Ta90lu1eHY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MVVM_PersonenDB_Bsp.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DOM-PPA01\kh2" issuerKeyHash="fcf987b46ae109124eb6efcd67fda59ed5202a4c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AZIT/0xKkDa9xiuYG1LQSaybU0m3TDmzHZGUSKJfz/4=</DigestValue></Reference></SignedInfo><SignatureValue>bgSi/NG0/j4SSqJnyf+xgTMiQp7C8Pu9vMoqBfBS67kWASEAO/hjXHUbNm+bnGNwGTGrerZiF72AoDXuIdF+avWscE2EAiNkOk8r59Rx62H6HWbOBAjeefxtiZn3YKsTXkY+CuODqQq6mz0KVi8zFFz3NHXccRK5V+gOUgSalY0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>suFkHD5oO0OwxO5j3DabZZC644dP7eWQQxxf6RvpF77OIo4kaewv50hcYmbYlpfsH/NcxjvB7mPv+wFxj87VosIi/XB+kKeceyaKFaxkBUMQTVfzbalzR0wDLHx1APUFmRjUPK9PckRjo6P8tWPpupVeEXb2g+xKm47f1EsWeLE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fecf5fa24894911db3394cb749539bac49d0521b982bc6bd36904a4cff139201" Description="" Url=""><as:assemblyIdentity name="MVVM_PersonenDB_Bsp.exe" version="1.0.0.0" publicKeyToken="4d22f349882c49ee" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DOM-PPA01\kh2</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SMguwASXkN5d8NoKGzQHdWsYNLFP7ipmVrh/J2qRFyI=</DigestValue></Reference></SignedInfo><SignatureValue>bw5Uif+QRvM0GRwxsa0Rd6zrt3MbpEBfevmkxHVKe+lQKggDibPj9pcGcq8JTinhFC/Edgy6BM+AS/Sm5q1KUxwyRO0680rPXYL6QyklVN87yv9jK1QuL8ch5AQlENahaggnTTIEIU5R5HyK5/QFBrKqmbQdgcRRulaCGt0yLZo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>suFkHD5oO0OwxO5j3DabZZC644dP7eWQQxxf6RvpF77OIo4kaewv50hcYmbYlpfsH/NcxjvB7mPv+wFxj87VosIi/XB+kKeceyaKFaxkBUMQTVfzbalzR0wDLHx1APUFmRjUPK9PckRjo6P8tWPpupVeEXb2g+xKm47f1EsWeLE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQFrudP18CxIBHwY9MjhhvTDANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoARABPAE0ALQBQAFAAQQAwADEAXABrAGgAMjAeFw0xOTA5MTMwOTIwNTBaFw0yMDA5MTIxNTIwNTBaMCUxIzAhBgNVBAMeGgBEAE8ATQAtAFAAUABBADAAMQBcAGsAaAAyMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCy4WQcPmg7Q7DE7mPcNptlkLrjh0/t5ZBDHF/pG+kXvs4ijiRp7C/nSFxiZtiWl+wf81zGO8HuY+/7AXGPztWiwiL9cH6Qp5x7JooVrGQFQxBNV/NtqXNHTAMsfHUA9QWZGNQ8r09yRGOjo/y1Y+m6lV4RdvaD7Eqbjt/USxZ4sQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGLrk4TSfmQG7WvLDeJJ995foJBP4CrKTDxHU6zXOtV4XEqsoUlKvudBVuC2Bspc0GzRAuqYfn8QfX2w46hqWas0pOZVKWIKDL5fHEWQGwn1z97dwhbmYfFZQBB4jqG7DICyy3spAoRCunn27eiexutSs0POt4PKGKJp4hXCYveo</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
